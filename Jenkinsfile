@@ -7,8 +7,8 @@ pipeline {
         stage('build') {
             steps {
                 sh 'python hello.py'
-		sh 'ls'
-		sh "echo watashi wa hangy famboi ninja"
+        		sh 'ls'
+	        	sh "echo watashi wa hangy famboi ninja daro, kono umai burger"
             }
 
         }
